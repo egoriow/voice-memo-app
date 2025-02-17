@@ -29,9 +29,38 @@
 		6D7B9AAB2D62259B005C1053 /* voice-memo-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "voice-memo-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6DFD87192D624B7000B5E207 /* Exceptions for "voice-memo-app" folder in "voice-memo-appTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6D7B9AA02D62259B005C1053 /* voice-memo-appTests */;
+		};
+		6DFD871A2D624B7000B5E207 /* Exceptions for "voice-memo-app" folder in "voice-memo-appUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6D7B9AAA2D62259B005C1053 /* voice-memo-appUITests */;
+		};
+		6DFD871B2D624BA900B5E207 /* Exceptions for "voice-memo-app" folder in "voice-memo-app" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6D7B9A902D62259A005C1053 /* voice-memo-app */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6D7B9A932D62259A005C1053 /* voice-memo-app */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6DFD871B2D624BA900B5E207 /* Exceptions for "voice-memo-app" folder in "voice-memo-app" target */,
+				6DFD87192D624B7000B5E207 /* Exceptions for "voice-memo-app" folder in "voice-memo-appTests" target */,
+				6DFD871A2D624B7000B5E207 /* Exceptions for "voice-memo-app" folder in "voice-memo-appUITests" target */,
+			);
 			path = "voice-memo-app";
 			sourceTree = "<group>";
 		};
@@ -399,6 +428,7 @@
 				DEVELOPMENT_TEAM = 3M69HGS67Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "voice-memo-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -409,7 +439,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "projectuserfirst.voice-memo-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.productuserfirst.voice-memo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -428,6 +458,7 @@
 				DEVELOPMENT_TEAM = 3M69HGS67Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "voice-memo-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,7 +469,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "projectuserfirst.voice-memo-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.productuserfirst.voice-memo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -456,7 +487,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "projectuserfirst.voice-memo-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.productuserfirst.voice-memo-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -475,7 +506,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "projectuserfirst.voice-memo-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.productuserfirst.voice-memo-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -492,7 +523,7 @@
 				DEVELOPMENT_TEAM = 3M69HGS67Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "projectuserfirst.voice-memo-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.productuserfirst.voice-memo-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -509,7 +540,7 @@
 				DEVELOPMENT_TEAM = 3M69HGS67Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "projectuserfirst.voice-memo-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.productuserfirst.voice-memo-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
