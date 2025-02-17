@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6DB7A3AA2D63156D00885D99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7A3A62D63132600885D99 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6D7B9AA22D62259B005C1053 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		6D7B9A912D62259A005C1053 /* voice-memo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "voice-memo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D7B9AA12D62259B005C1053 /* voice-memo-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "voice-memo-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D7B9AAB2D62259B005C1053 /* voice-memo-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "voice-memo-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB7A3A62D63132600885D99 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -104,6 +109,7 @@
 		6D7B9A882D622599005C1053 = {
 			isa = PBXGroup;
 			children = (
+				6DB7A3A62D63132600885D99 /* README.md */,
 				6D7B9A932D62259A005C1053 /* voice-memo-app */,
 				6D7B9AA42D62259B005C1053 /* voice-memo-appTests */,
 				6D7B9AAE2D62259B005C1053 /* voice-memo-appUITests */,
@@ -241,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB7A3AA2D63156D00885D99 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
