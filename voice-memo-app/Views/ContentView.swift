@@ -14,7 +14,11 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
-            VStack {
+            ZStack {
+                Theme.gradient
+                    .ignoresSafeArea()
+
+                VStack {
                 // Category Folders
                 if !categories.isEmpty {
                     ScrollView(.horizontal, showsIndicators: false) {
@@ -48,7 +52,7 @@ struct ContentView: View {
                     }
                 }) {
                     Circle()
-                        .fill(audioRecorder.isRecording ? Color.red : Color.black)
+                        .fill(audioRecorder.isRecording ? Color.red : Theme.accent)
                         .frame(width: 80, height: 80)
                         .overlay(
                             Image(systemName: audioRecorder.isRecording ? "stop.fill" : "mic.fill")
@@ -80,7 +84,7 @@ struct ContentView: View {
                     .font(.headline)
                     .foregroundColor(.white)
                     .padding()
-                    .background(Color.black)
+                    .background(Theme.accent)
                     .cornerRadius(10)
                 }
                 .padding(.bottom, 30)
@@ -118,7 +122,7 @@ struct FolderView: View {
             ZStack {
                 Image(systemName: "folder.fill")
                     .font(.system(size: 50))
-                    .foregroundColor(isSelected ? .black : .gray)
+                    .foregroundColor(isSelected ? Theme.accent : .gray)
                 
                 Text("\(count)")
                     .font(.caption)

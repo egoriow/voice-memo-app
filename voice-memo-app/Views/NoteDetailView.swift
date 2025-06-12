@@ -21,7 +21,7 @@ struct NoteDetailView: View {
                         }) {
                             Image(systemName: audioPlayer.isPlaying ? "pause.circle.fill" : "play.circle.fill")
                                 .font(.system(size: 44))
-                                .foregroundColor(.black)
+                                .foregroundColor(Theme.accent)
                         }
                         .disabled(note.audioURL == nil)
                         
