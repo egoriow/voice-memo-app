@@ -33,6 +33,7 @@ struct NotesListView: View {
                 Button("Done") {
                     dismiss()
                 }
+                .tint(Theme.accent)
             }
         }
         .fullScreenCover(item: $selectedNote) { note in
